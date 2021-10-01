@@ -1,0 +1,90 @@
+@media screen and (max-width: 750px) {
+    header {
+        padding: 164px 0;
+    }
+    .fb-logo {
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+
+    .fb-header-form {
+        grid-column: 1 / -1;
+        justify-self: center;
+        width: 289px;
+    }
+    .fb-header-form form {
+        grid-template-areas:
+         " e " 
+         " p "
+         " l "
+         ;
+    }
+    .fb-header-form form .email input[type="text"] {
+        width: 100%;
+    }
+    .fb-header-form form .password input[type="password"] {
+        width: 100%;
+    }
+    .fb-header-form form .login input[type="submit"] {
+        width: 150px;
+        padding: 10px 8px;
+    }
+
+    main {
+        padding: 20px 0;
+    }
+
+    .main-content {
+        grid-template-areas: "fh fh fh fh fh fh fh fh fh fh fh fh" 
+                            " ff ff ff ff ff ff ff ff ff ff ff ff";
+    }
+    .fb-hepls {
+        text-align: center;
+    }
+    .fb-hepls h1 {
+        font-size: 14px;
+        text-align: center;
+    }
+    .fb-hepls img {
+        width: 282px;
+        margin-left: 0px;
+        margin-top: 22px;
+    }
+    .fb-form {
+        width: 100%;
+        justify-self: start;
+        margin-top: 15px;
+    }
+    .row-w-1 {
+        grid-column: 1 / -1;
+        text-align: left;
+    }
+    .row-w-3 {
+        grid-column: 1 / -1;
+    }
+    .btn {
+        margin-left: 0%;   
+    }
+    .link ul li {
+        font-size: 14px;
+    }
+    .link ul li a {
+        font-size: 14px;
+    }
+    .sette ul li a {
+        font-size: 14px;
+    }
+    .footer-content .line {
+        margin-bottom: 10px;
+    }
+    .sette {
+        grid-column: 1 / -1;
+        justify-self: start;
+    }
+    .copy {
+        grid-column: 1 / -1;
+        order: 2;
+        text-align: center;
+        margin: 5px 0;
+    }
+}
